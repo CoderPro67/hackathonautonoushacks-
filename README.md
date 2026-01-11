@@ -1,4 +1,4 @@
-# BRSR Section A Generator & Auditor
+# AutoComplainceMate
 
 This project consists of two parts that must be run simultaneously:
 1.  **Frontend**: A Next.js application (Port 3000) for the UI, Drag-and-Drop, and Gemini Rate-Limit Handling.
