@@ -7,6 +7,8 @@ RUN npm install
 
 COPY . .
 
+ENV BACKEND_URL=http://backend:5000
+
 RUN npm run build
 
 EXPOSE 3000
