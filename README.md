@@ -49,4 +49,3 @@ NEXT_PUBLIC_API_URL=http://localhost:5000 (If using backend integration)
 PORT=5000
 GEMINI_API_KEY=your_key_here (Required for backend-driven audit)
 ```
-# autonousbackend

@@ -12,9 +12,11 @@ app.use(express.json({ limit: '10mb' })); // Allow large payloads for file conte
 // Routes
 const auditController = require('./controllers/auditController');
 const pdfController = require('./controllers/pdfController');
+const extractionController = require('./controllers/extractionController');
 
 app.post('/audit-and-verify', auditController.auditAndVerify);
 app.post('/generate-pdf', pdfController.generatePDF);
+app.post('/extract-data', extractionController.extractData);
 
 app.get('/', (req, res) => {
     res.send('BRSR Backend is running');
